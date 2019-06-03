@@ -1,0 +1,19 @@
+{
+  "name": "project-skeleton",
+  "version": "1.0.0",
+  "description": "A skeleton to serve as a tool to help me create a RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&& jasmine",
+    "start": "node index.js"
+  },
+  "author": "T.Swift",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jasmine": "^3.4.0",
+    "pg": "^7.11.0",
+    "sequelize": "^5.8.7"
+  }
+}
